@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>College Notice System - Login</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eaf2ff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.login-box {
+    width: 350px;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    margin: 0;
+    color: #1a1f29;
+}
+
+.title p {
+    margin: 5px 0 0;
+    color: gray;
+}
+
+/* Role buttons */
+.role {
+    margin-bottom: 15px;
+}
+
+.role button {
+    padding: 6px 12px;
+    border: 1px solid #2280f8;
+    background: white;
+    color: #2280f8;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.role .active {
+    background: #2280f8;
+    color: white;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #2280f8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <div class="title">
+        <h2>🎓 Govt. College of Engineering</h2>
+        <p>Notice Portal</p>
+    </div>
+
+    <!-- Role Selection -->
+    <div class="role">
+        <button class="active">Student</button>
+        <button>Admin</button>
+    </div>
+
+    <!-- Inputs -->
+    <input type="text" placeholder="College ID / Email">
+    <input type="password" placeholder="Password">
+
+    <div class="row">
+        <label><input type="checkbox"> Remember me</label>
+        <span style="color:#2280f8; cursor:pointer;">Forgot password?</span>
+    </div>
+
+    <button class="login-btn">Log in</button>
+
+</div>
+
+</body>
+</html>
