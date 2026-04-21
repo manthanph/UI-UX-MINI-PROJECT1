@@ -90,11 +90,3 @@ src/
 | Error | Submit with invalid input | InputField shows red error message |
 
 ---
-
-## Team
-
-| Name | PRN |
-|------|-----|
-| Khush Paliwal | 123B1B208 |
-| Paritosh Nimhan | 123B1B212 |
-| Sneha Nalawade | 124B2B022 |
