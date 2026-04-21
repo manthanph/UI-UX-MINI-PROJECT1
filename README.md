@@ -1,18 +1,4 @@
 # CollegeNotify — College Notice System
-### PCCoE | UI/UX Laboratory | Assignment 9 | Division-C, Batch-C3
-### Design and Implementation of Reusable UI Components
-
----
-
-## How to Run
-
-```bash
-npm install
-npm start
-# Opens at http://localhost:3000
-```
-
----
 
 ## Project Structure
 
